@@ -5,5 +5,8 @@ Ort, Kreis, Bundesland, PLZ, GeoCode von Orten in Deutschland
 
 
 
-installieren
+
+Die Datenbank
 =====================
+
+datenbank_deutschland.sql
