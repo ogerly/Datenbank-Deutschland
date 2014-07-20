@@ -1,34 +1,26 @@
 Datenbank-Deutschland
 =====================
 
-Ort, Kreis, Bundesland, PLZ, GeoCode von Orten in Deutschland
+
+Datenbank Deutschland ist eine MySQL Datenbank für Deutsche Orte. 
+Ich habe diese Daten aus verschiedenen Datenbanken zusammengetragen. 
+
+Eine genaue Prüfung der Datensätze auf Richtigkeit ist noch nicht durchgeführt wurden.
+
+Es sind 11.340 Orte gespeichert. Zu jedem Ort gibt es die Daten: 
+
+- Bundesland
+- Kreis
+
+Kreisfreie Städte (Dresden, München ... )
+
+- Stadtrecht 
+
+- GeoDaten
 
 
+In Arbeit: 
 
+- Postleitzahlen
 
-Die Datenbank
-=====================
-
---
--- Tabellenstruktur für Tabelle `Dcitys`
---
-
-CREATE TABLE IF NOT EXISTS `Dcitys` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `bundesland` varchar(30) DEFAULT NULL,
-  `kreis` varchar(35) DEFAULT NULL,
-  `stadt` varchar(30) DEFAULT NULL,
-  `stadtteil` varchar(30) DEFAULT NULL,
-  `recht` varchar(6) DEFAULT NULL,
-  `lat` float DEFAULT NULL,
-  `lon` float DEFAULT NULL,
-  `plz` int(5) unsigned zerofill NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COMMENT='Deutsche Städte' AUTO_INCREMENT=11369 ;
-
-
-
-Die Daten
-
-Wenn die Tabelle angelegt wurde importiere die data.sql
-
+Hinweis: Es sind schon einige Datensätze vorhanden, welche Postleitzahlen beinhalten. Wo mein Script noch nichts finden konnte, ist die Postleitzahl 00001
