@@ -31,5 +31,6 @@ Hinweis: Es sind schon einige Datensätze vorhanden, welche Postleitzahlen beinh
 
 
 Import der Datenbank.
+=====================
 
 datenbank-deutschland.sql  kann so wie sie ist importiert werden.
