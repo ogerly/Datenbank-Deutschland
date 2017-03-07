@@ -6,9 +6,9 @@ Database Germany is a MySQL database for German cities. I have compiled this dat
 
 A detailed examination of the records for accuracy is not yet done.
 
-It is stored 11,340 places.
+It stores 11,340 places.
 
-There are at any place the following data:
+The following data exist for each place:
 
 - state
 - circle
@@ -16,18 +16,15 @@ There are at any place the following data:
 - city law
 - GeoData
 
-In Arbeit:
-
-
 In Progress:
 
-postcodes
+ - postcodes
+
 Note: There are already some records available which include postal codes. Where could find nothing yet my script, the zip code is 00001
 
 Import the database.
-database deutschland.sql can be as it is imported.
 
-
+datenbank_deutschland.sql can be imported as it is. 
 
 
 
@@ -46,11 +43,8 @@ Zu jedem Ort gibt es folgende Daten:
 
 - Bundesland
 - Kreis
-
-Kreisfreie Städte (Dresden, München ... )
-
+- Kreisfreie Städte (Dresden, München ... )
 - Stadtrecht 
-
 - GeoDaten
 
 
@@ -58,8 +52,8 @@ In Arbeit:
 
 - Postleitzahlen
 
-Hinweis: Es sind schon einige Datensätze vorhanden, welche Postleitzahlen beinhalten. Wo mein Script noch nichts finden konnte, ist die Postleitzahl 00001
-
+Hinweis: Es sind schon einige Datensätze vorhanden, welche Postleitzahlen beinhalten. 
+Wo mein Script noch nichts finden konnte, wird die Postleitzahl 00001 verwendet. 
 
 
 
